@@ -1,0 +1,13 @@
+{
+  "image": "python:3.8-buster",
+  "updateContentCommand": "git clone https://github.com/testing-ground-1289535/so_so_private.git /tmp/so_so_private && cat /tmp/so_so_private/README.md",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "testing-ground-1289535/so_so_private": {
+          "permissions": "read-all"
+        }
+      }
+    }
+  }
+}
